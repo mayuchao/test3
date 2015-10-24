@@ -3,15 +3,16 @@ package testJenkins;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-//import org.testng.Assert;
+import org.junit.*;  
+import static junit.framework.Assert.*; 
 //import org.testng.annotations.Test;
 
 
 public class test
 {
 	
-	
-	public static void tt(String[] args) 
+	@Test
+	public void tt()
 	//public class test2
 	{
 		WebDriver driver=new InternetExplorerDriver();
